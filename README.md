@@ -10,4 +10,9 @@ Optionally you can add your `DataImporterSettings` (see the Ucommerce documentat
 services.AddUcommerceCsvImporter(configuration, settings);
 ```
 
-You can now get an instance of `DataImporter` from `Ucommerce.DataImport.Core` and use it to import your CSV data!
+You can now get an instance of `DataImporter` from `Ucommerce.DataImport.Core` like below and use it to import your CSV data!
+
+```
+var dataImporter = _serviceProvider.GetRequiredService<DataImporter>();
+await dataImporter.Run();
+```
