@@ -1,0 +1,12 @@
+services:
+  sqledge:
+    build: .
+    ports:
+      - ${MSSQL_PORT}:1433
+    environment:
+      - MSSQL_SA_PASSWORD=${MSSQL_SA_PASSWORD}
+      - MSSQL_PID=${MSSQL_PID}
+      - ACCEPT_EULA=y
+      - MSSQL_PACKAGE=/Database
+    volumes:
+      - ./Database:/Database:ro

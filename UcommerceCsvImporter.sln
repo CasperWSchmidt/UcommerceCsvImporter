@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcommerceCsvImporter", "UcommerceCsvImporter\UcommerceCsvImporter.csproj", "{FE3E04E2-48DB-45BA-937F-868E31D35638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcommerceCsvImporterTests", "UcommerceCsvImporterTests\UcommerceCsvImporterTests.csproj", "{AA29E892-F33A-45FE-BFE3-61DFF8CB31CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE3E04E2-48DB-45BA-937F-868E31D35638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3E04E2-48DB-45BA-937F-868E31D35638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3E04E2-48DB-45BA-937F-868E31D35638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3E04E2-48DB-45BA-937F-868E31D35638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA29E892-F33A-45FE-BFE3-61DFF8CB31CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA29E892-F33A-45FE-BFE3-61DFF8CB31CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA29E892-F33A-45FE-BFE3-61DFF8CB31CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA29E892-F33A-45FE-BFE3-61DFF8CB31CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
